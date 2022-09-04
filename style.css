@@ -1,0 +1,83 @@
+.container{
+    background: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.p{
+    display: inline-flex;
+}
+.content{
+    margin-left: 30%;
+    margin-right: 35%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.image img{
+    width: 100%;  
+    border-radius: 10px 0px 0px 10px;
+    height: 100%;
+}
+.wordings{
+    background: white;
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+    height: 100%;
+}
+h4{
+    font-weight: lighter;
+    color: grey;
+    width: 200px;
+    padding-left: 30px;
+    font-size: small;
+    line-height: 18px;
+}
+h3{
+    font-weight: lighter;
+    color: grey;
+    font-size: smaller;padding-left: 30px;
+    letter-spacing: 5px;
+    padding-top: 15px;
+}
+h2{
+    padding-left: 30px;
+}
+h1{
+    color: green;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+h1 span{
+    color: black;
+    font-size: small;
+    display: inline-block;
+    vertical-align: middle;
+}
+span{
+    margin-top: -10px;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+button{
+    display: inline-flex;
+    margin-left: 30px;
+    width: 70%;
+    background: green;
+    justify-content: center;
+    border-radius: 8px;
+    height: 40px;
+    border-style: none;
+    margin-bottom: 25px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: smaller;
+    padding-top: 7%;
+}
+button img{
+    height: 12px;
+    padding-top: 7%;
+}
